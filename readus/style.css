@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pacifico&family=Plus+Jakarta+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+body{
+    font-family: cursive;
+}
+
+
+
+ 
+ .container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0px;
+    background-color:black;
+    color:#fff;
+    margin: 0px;
+    box-sizing:border-box;
+}
+.nav-link li{
+    display:inline-block;
+    padding:8px;
+    margin:35px;
+    font-size: 18px;
+    font-family: plus jakarta sans;
+}
+
+.nav-link li:hover{
+cursor: pointer;
+background-color:red;
+}
+
+
+li a{
+    color:#fff;
+    padding:10px;
+    text-decoration: none;
+}
+
+.logo{
+    padding:10px;
+    font-family: pacifico;
+    color:burlywood;
+    font-size: 35px;
+}
+.background {
+background-image: url("global-horn/new-bg.jfif");
+height:750px;
+width:100%;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: -50px;
+}
+
+p{
+    padding-top:400px;
+    padding-left: 30px;
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+.text{
+font-weight: 800;
+font-family: plus jakarta sans;
+font-size: 50px;
+text-align: center;
+}
+    
+p span{
+    border: solid black ;
+    border-width: 3px; 
+    border-radius: 50px;
+background-color: black;
+color:whitesmoke; 
+padding: 15px;
+}
+ p span:hover{
+background-color:red;
+cursor: pointer;
+}
+
+.about{
+    padding-top:80px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+.textone p{
+    margin: 20px;
+    text-align: center;
+    padding-top: 0px;
+    animation:words 2s 5;
+}
+
+.script{
+    padding-bottom:20px;
+    font-size: 20px;
+    animation:words 2s 5;
+}
+
+@keyframes words{
+    from {left:0px;}
+    to {left:200px;}
+} 
+
+.imgones{
+    padding-top: 30px;
+}
+.product{
+    padding-top:80px;
+    font-family: plus jakarta sans;
+    font-weight: 600;
+    text-align: center;
+    font-size:60px;
+}
+
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 0 80px;
+    padding-top:5px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+margin-top: 10px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .contact{
+      text-align:center;
+margin-top: 200px;
+font-size: 70px;
+font-family: plus jakarta sans;
+  }
+
+  .contactone{
+      width:50%;
+      margin-top: 100px;
+      background-color: black;
+      height:500px;
+      margin-left:20px;
+  }
+
+  .inside{
+      padding:50px;
+      margin-left: 10px;
+  }
+
+  .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+
+  }
+  
+  /* Style the form icons */
+  .icon {
+    padding: 10px;
+    background: burlywood;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid burlywood;
+    border-radius: 50px;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: burlywood;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+.image img{
+    display:flex;
+    float:right;
+    margin-top: -500px;
+    margin-right: 10px;
+}
+
+
+
+.footer {
+    text-align:center;
+font-size: 50px;
+font-family: plus jakarta sans;
+letter-spacing: 10px;
+padding-top: 90px;
+}
+
+.end{
+  text-align: center;
+  align-content: center;
+    margin-top:-150px;
+    background-color: burlywood;
+    height:300px;
+    width:100%;
+}
